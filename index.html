@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0e1014" />
+    <meta name="description" content="A private, local-first personal finance ledger." />
+    <title>Ledger — Personal finance</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Main navigation">
+        <div class="brand-lockup">
+          <div class="brand"><span class="brand-mark">◇</span> ledger</div>
+          <div class="brand-caption">PERSONAL FINANCE</div>
+        </div>
+        <nav class="primary-nav">
+          <button class="nav-item" data-nav="overview"><span class="nav-icon">◫</span><span>Overview</span></button>
+          <button class="nav-item" data-nav="transactions"><span class="nav-icon">↔</span><span>Transactions</span></button>
+          <button class="nav-item" data-nav="work"><span class="nav-icon">＄</span><span>Work &amp; salary</span></button>
+          <button class="nav-item" data-nav="budgets"><span class="nav-icon">▤</span><span>Budgets &amp; goals</span></button>
+          <button class="nav-item" data-nav="insights"><span class="nav-icon">◷</span><span>Insights</span></button>
+        </nav>
+        <div class="workspace-label">WORKSPACE</div>
+        <nav class="secondary-nav">
+          <button class="nav-item" data-nav="settings"><span class="nav-icon">⚙</span><span>Settings</span></button>
+        </nav>
+        <div class="profile-card">
+          <div class="avatar">Y</div>
+          <div><strong>Your finances</strong><span>Personal workspace</span></div>
+        </div>
+      </aside>
+      <main class="main-panel">
+        <div id="page-root" class="page-root"></div>
+      </main>
+    </div>
+    <div id="modal-root"></div>
+    <div id="toast-root" class="toast-stack" aria-live="polite" aria-atomic="true"></div>
+    <script src="app.js" defer></script>
+  </body>
+</html>
