@@ -11,3 +11,5 @@ The site is served only on your computer. Transactions, budgets, goals, loans, w
 Use **Work & salary** to record monthly pay by job. The default profile is Blinkit; save days worked, daily payout, overtime hours and hourly payout, other earnings and deductions. Salary totals are added to Transactions as linked income entries, and each month keeps its own rates. Add another job profile and switch to it if your work changes; earlier job records remain in salary history. The cash-flow chart displays only the selected month and stays empty when that month has no transactions.
 
 The initial entries are editable sample data. **Settings → Restore starter data** replaces the browser's saved Ledger data with that sample again.
+
+For managing finance and helping with finance decisions.
